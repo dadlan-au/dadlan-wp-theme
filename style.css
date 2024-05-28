@@ -1223,3 +1223,7 @@ header.entry-header {
 .entry-title {
 	margin-bottom: 0;
 }
+
+ul {
+	margin: 0;
+}
