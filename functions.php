@@ -31,6 +31,37 @@ function dadlan_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
+
+
+
+function dadlan_enqueue_block_styles() {
+    // Register the block stylesheet located in the theme's root directory.
+    wp_register_style(
+        'dadlan-block-styles',                 // Handle for the stylesheet.
+        get_theme_file_uri('editor-style.css'), // Path to the stylesheet.
+        [],                                     // Dependencies (none in this case).
+        '1.0'                                   // Version number.
+    );
+
+    // Enqueue (load) block styles.
+    wp_enqueue_style( 'dadlan-block-styles' );
+
+}
+// Hook the function to 'enqueue_block_assets' to load the stylesheet in the block editor and the front end.
+add_action( 'enqueue_block_assets', 'dadlan_enqueue_block_styles' );
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/*
 		* Let WordPress manage the document title.
 		* By adding theme support, we declare that this theme does not use a
