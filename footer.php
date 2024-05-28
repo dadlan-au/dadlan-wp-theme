@@ -37,7 +37,7 @@
 
         <div>
             <nav>
-                <a href="membership.html">Membership</a>
+                <a href="/membership/">Membership</a>
             </nav>
         </div>
 
