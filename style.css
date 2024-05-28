@@ -1213,3 +1213,13 @@ th {
     transform: translateY(-50%);
     cursor: pointer;
 }
+
+/* Override */
+
+header.entry-title {
+	padding: 0;
+}
+
+.entry-title {
+	margin-bottom: 0;
+}
