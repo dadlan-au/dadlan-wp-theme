@@ -1224,6 +1224,11 @@ header.entry-header {
 	margin-bottom: 0;
 }
 
+.post-thumbnail {
+	display: block;
+	margin-top: 1.5em;
+}
+
 ul {
 	margin: 0;
 }
