@@ -1232,3 +1232,20 @@ header.entry-header {
 ul {
 	margin: 0;
 }
+
+.main-navigation {
+	position: relative;
+}
+
+.main-navigation.toggled div {
+	position: absolute;
+	margin-top: 5px;
+	padding: 10px;
+	background: #171717;
+	border: 3px solid rgb(108, 49, 110)
+}
+
+.main-navigation.toggled div a {
+	line-height: 1;
+	margin: 10px 0;
+}
