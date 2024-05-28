@@ -647,7 +647,15 @@ textarea {
   text-decoration: none;
 }
 /* Small menu. */
-.menu-toggle,
+.menu-toggle {
+    border: 3px solid rgb(108, 49, 110);
+    background: rgba(82, 44, 83, 0.485);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
 .main-navigation.toggled div {
 	display: block;
 }
