@@ -33,7 +33,7 @@ function dadlan_setup() {
 
 
 
-
+/*
 function dadlan_enqueue_block_styles() {
     // Register the block stylesheet located in the theme's root directory.
     wp_register_style(
@@ -49,7 +49,7 @@ function dadlan_enqueue_block_styles() {
 }
 // Hook the function to 'enqueue_block_assets' to load the stylesheet in the block editor and the front end.
 add_action( 'enqueue_block_assets', 'dadlan_enqueue_block_styles' );
-
+ */
 
 
 
