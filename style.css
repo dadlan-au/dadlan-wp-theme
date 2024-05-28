@@ -1249,3 +1249,7 @@ ul {
 	line-height: 1;
 	margin: 10px 0;
 }
+
+[aria-current="page"] {
+	font-weight: 600;
+}
