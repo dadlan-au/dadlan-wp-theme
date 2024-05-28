@@ -1216,11 +1216,13 @@ th {
 
 /* Override */
 
-header.entry-header {
+header.entry-header,
+header.page-header {
 	padding: 0;
 }
 
-.entry-title {
+.entry-title,
+.page-title {
 	margin-bottom: 0;
 }
 
