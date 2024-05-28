@@ -661,6 +661,10 @@ textarea {
 	.main-navigation div {
 		display: flex;
 	}
+
+  nav a:not(:first-child) {
+    margin-left: 20px;
+  }
 }
 
 .site-main .comment-navigation,
@@ -965,7 +969,6 @@ header img:hover {
 nav a {
     text-decoration: none;
 }
-
 nav a.active {
     font-weight: 500;
     font-weight: bold;
