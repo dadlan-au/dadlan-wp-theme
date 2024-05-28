@@ -29,7 +29,7 @@
     <div class="logo-nav-container">
       <a href="/" class="logo"><img src="/wp-content/themes/dadlan/assets/images/GreenLogo.png" width="100" height="100" alt="DadLAN Logo"></a>
       <nav id="site-navigation" class="main-navigation">
-        <button class="menu-toggle banner" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+        <button class="menu-toggle " aria-controls="primary-menu" aria-expanded="false">Menu</button>
 <div>
 <?php
 $menuParams = array(
