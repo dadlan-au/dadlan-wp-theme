@@ -37,7 +37,7 @@
 
         <div>
             <nav>
-                <a href="/membership/">Membership</a> | <a href="https://www.volunteer.com.au/volunteering-organisations/31242/DadLAN-LTD">Volunteering Oppoertunities</a> | <a href="/resources/">Resources</a>
+                <a href="/membership/">Membership</a> | <a href="https://www.volunteer.com.au/volunteering-organisations/31242/DadLAN-LTD">Volunteering Opportunities</a> | <a href="/resources/">Resources</a>
             </nav>
         </div>
 
