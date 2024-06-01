@@ -15,19 +15,7 @@
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:url" content="https://dadlan.au/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="DadLAN Australia">
-    <meta property="og:description" content="A place to connect.">
-    <meta property="og:image" content="https://dadlan.au/wp-content/uploads/2024/05/DadLan_Banner.png">
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="dadlan.au">
-    <meta property="twitter:url" content="https://dadlan.au/">
-    <meta name="twitter:title" content="DadLAN Australia">
-    <meta name="twitter:description" content="A place to connect.">
-    <meta name="twitter:image" content="https://dadlan.au/wp-content/uploads/2024/05/DadLan_Banner.png">
+  
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3QL8GW9Z9F"></script>
