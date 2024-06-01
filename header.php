@@ -19,7 +19,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="DadLAN Australia">
     <meta property="og:description" content="A place to connect.">
-    <meta property="og:image" content="/wp-content/uploads/2024/05/DadLan_Banner.png">
+    <meta property="og:image" content="https://dadlan.au/wp-content/uploads/2024/05/DadLan_Banner.png">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
