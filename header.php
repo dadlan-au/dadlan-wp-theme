@@ -27,7 +27,7 @@
     <meta property="twitter:url" content="https://dadlan.au/">
     <meta name="twitter:title" content="DadLAN Australia">
     <meta name="twitter:description" content="A place to connect.">
-    <meta name="twitter:image" content="/wp-content/uploads/2024/05/DadLan_Banner.png">
+    <meta name="twitter:image" content="https://dadlan.au/wp-content/uploads/2024/05/DadLan_Banner.png">
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3QL8GW9Z9F"></script>
