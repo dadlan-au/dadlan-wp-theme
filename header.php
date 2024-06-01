@@ -39,6 +39,12 @@
         gtag('config', 'G-3QL8GW9Z9F');
     </script>
 
+  <!-- Event snippet for Page view conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-16586618453/CZPYCIm64rQZENXsjuU9'});
+</script>
+
+
     <!-- Meta Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
