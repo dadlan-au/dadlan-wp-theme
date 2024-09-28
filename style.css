@@ -1280,7 +1280,7 @@ ul li {
 
 @media screen and (max-width: 37.5em) {
 	#main nav ul {
-		margin: 0;
+		margin: 0 0 24px 0;
 		padding: 0;
 		border: 1px solid #b224cb;
 	}
@@ -1295,6 +1295,7 @@ ul li {
 	#main nav ul li a {
 		margin: 0;
 		padding: 10px;
+		display: inline-block;
 	}
 
 	#main nav ul .current_page_item a {
