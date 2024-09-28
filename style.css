@@ -1325,7 +1325,7 @@ ul li {
 
 	#main {
 		display: flex;
-		column-gap: 24px;
+		column-gap: 48px;
 	}
 
 	#main nav {
@@ -1349,6 +1349,7 @@ ul li {
 		margin: 0;
 		padding: 10px;
 		display: block;
+		font-size: 15px;
 	}
 
 	#main nav ul .current_page_item a {
