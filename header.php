@@ -80,48 +80,5 @@ echo strip_tags(wp_nav_menu($menuParams), '<a>');
         ?>
 </div>
       </nav>
-
-      <?php
-	// Get the current page ID
-	$current_page_id = get_the_ID();
-
-	// Attempt to get subpages of the current page
-	$subpages_args = array(
-		'title_li' => '',
-		'child_of' => $current_page_id,
-		'echo'     => false,
-		'depth'    => 1,
-	);
-
-	$subpages = wp_list_pages( $subpages_args );
-
-	// Check if there are any subpages
-	if ( ! empty( $subpages ) ) {
-		// Current page has subpages, display them
-		echo '<nav id="page-navigation"><button class="menu-toggle " aria-controls="secondary-menu" aria-expanded="false">Page Menu</button><div><ul>' . $siblings . '</ul></div></nav>';
-	} else {
-		// Current page does not have subpages, check if it has a parent
-		$parent_id = wp_get_post_parent_id( $current_page_id );
-
-		if ( $parent_id ) {
-			// Current page has a parent, get its siblings
-			$siblings_args = array(
-				'title_li' => '',
-				'child_of' => $parent_id,
-				'echo'     => false,
-				'depth'    => 1,
-			);
-
-			$siblings = wp_list_pages( $siblings_args );
-
-			// Check if there are any siblings
-			if ( ! empty( $siblings ) ) {
-				echo '<nav id="page-navigation"><button class="menu-toggle " aria-controls="secondary-menu" aria-expanded="false">Page Menu</button><div><ul>' . $siblings . '</ul></div></nav>';
-			}
-		}
-	}
-	?>
-
-
     </div>
   </header>

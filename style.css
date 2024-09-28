@@ -1279,8 +1279,26 @@ ul li {
 }
 
 @media screen and (max-width: 37.5em) {
-	#main nav {
-		display: none;
+	#main nav ul {
+		margin: 0;
+		padding: 0;
+		border: 1px solid #b224cb;
+	}
+
+	#main nav ul li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: inline-block;
+	}
+
+	#main nav ul li a {
+		margin: 0;
+		padding: 10px;
+	}
+
+	#main nav ul .current_page_item a {
+		background-color: rgba(211,38,240, .36);
 	}
 }
 
