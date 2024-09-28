@@ -1277,3 +1277,35 @@ ul li {
 [aria-current="page"] {
 	font-weight: 600;
 }
+
+@media screen and (min-width: 37.5em) {
+
+	#main {
+		display: flex;
+		column-gap: 24px;
+	}
+
+	#main nav {
+		width: 200px;
+		flex-shrink: 0;
+	}
+
+	#main nav ul {
+		margin: 0;
+		padding: 0;
+		border: 1px solid #b224cb;
+	}
+
+	#main nav ul li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	#main nav ul li a {
+		margin: 0;
+		padding: 10px;
+		display: block;
+	}
+
+}
