@@ -1308,8 +1308,8 @@ ul li {
 		display: block;
 	}
 
-}
+	#main nav ul .current_page_item a {
+		background-color: rgba(211,38,240, .36);
+	}
 
-article h1 {
-	margin: 15px 0;
 }
