@@ -1278,6 +1278,12 @@ ul li {
 	font-weight: 600;
 }
 
+@media screen and (max-width: 37.5em) {
+	#main nav {
+		display: none;
+	}
+}
+
 @media screen and (min-width: 37.5em) {
 
 	#main {
