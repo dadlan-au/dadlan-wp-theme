@@ -13,19 +13,40 @@
 	// Get the current page ID
 	$current_page_id = get_the_ID();
 
-	// Set up the arguments for wp_list_pages
-	$args = array(
+	// Attempt to get subpages of the current page
+	$subpages_args = array(
 		'title_li' => '',
 		'child_of' => $current_page_id,
 		'echo'     => false,
+		'depth'    => 1,
 	);
 
-	// Get the subpages
-	$subpages = wp_list_pages( $args );
+	$subpages = wp_list_pages( $subpages_args );
 
 	// Check if there are any subpages
-	if ( !empty( $subpages ) ) {
+	if ( ! empty( $subpages ) ) {
+		// Current page has subpages, display them
 		echo '<nav><ul>' . $subpages . '</ul></nav>';
+	} else {
+		// Current page does not have subpages, check if it has a parent
+		$parent_id = wp_get_post_parent_id( $current_page_id );
+
+		if ( $parent_id ) {
+			// Current page has a parent, get its siblings
+			$siblings_args = array(
+				'title_li' => '',
+				'child_of' => $parent_id,
+				'echo'     => false,
+				'depth'    => 1,
+			);
+
+			$siblings = wp_list_pages( $siblings_args );
+
+			// Check if there are any siblings
+			if ( ! empty( $siblings ) ) {
+				echo '<nav><ul>' . $siblings . '</ul></nav>';
+			}
+		}
 	}
 	?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
