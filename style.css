@@ -1019,19 +1019,35 @@ nav a.active {
     font-weight: bold;
 }
 
-.director-body {
-    display: flex;
-    column-gap: 25px;
-    align-items: flex-start;
-}
-
-.director-body img {
-    width: 200px;
-    object-fit: contain;
-}
-
 .director-body p {
-    margin: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 37.5em) {
+
+	.director-body img {
+		width: 100%;
+		object-fit: contain;
+		max-width: 500px;
+		margin-bottom: 25px;
+		display: block;
+	}
+}
+
+@media screen and (min-width: 37.5em) {
+
+	.director-body {
+		display: flex;
+		column-gap: 25px;
+		align-items: flex-start;
+	}
+
+	.director-body img {
+		width: 200px;
+		object-fit: contain;
+		display: block;
+	}
+
 }
 
 footer {
