@@ -1294,6 +1294,10 @@ ul li {
 	font-weight: 600;
 }
 
+#main .article {
+	flex: 1;
+}
+
 @media screen and (max-width: 37.5em) {
 	#main nav ul {
 		margin: 0 0 24px 0;
